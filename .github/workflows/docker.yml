@@ -24,4 +24,4 @@ jobs:
         docker-compose up -d
     - name: docker push
       run: |
-        docker push 0719808225/demo-workflow:tagname
+        docker push docker.io/0719808225/demo-workflow:tagname
